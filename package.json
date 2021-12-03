@@ -1,0 +1,16 @@
+{
+  "name": "ftp-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npx pkg -t win index.js --out-path dist"
+  },
+  "keywords": [],
+  "author": "atikur-rabbi",
+  "license": "ISC",
+  "dependencies": {
+    "ftp-srv": "^4.5.0"
+  }
+}
